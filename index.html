@@ -14,8 +14,11 @@
     <meta name="author" content="Nhan Do">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <link rel="icon" href="favicon-16x16.ico" type="image/x-icon" sizes="16x16">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="style/libs.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!--[if lte IE 9]><link rel="stylesheet" href="style/ie.css"><![endif]-->
+    <link rel="stylesheet" href="style/print.css" media="print">
+    <script src="js/modernizr.js"></script>
   </head>
   <body>
     <div class="container">
@@ -56,7 +59,7 @@
               </ul>
             </div>
             <div class="copyright">
-              <p>Copyright © 2016 Designed by<a href="#" title=" LP" target="_blank"> LP</a>
+              <p>Copyright © 2016 Designed by<a href="javascript:void(0)" title=" LP" target="_blank"> LP</a>
               </p>
             </div>
           </div>
@@ -90,7 +93,7 @@
                   <h3 class="heading"><img src="images/hello.png" alt="Nhan Do Frontend Developer" class="img-responsive">
                   </h3>
                   <div class="about-desc">
-                    <p>I'm a Frontend Developer from Ho Chi Minh City. I’m highly skilled in HTMl5/ CSS3, LESS/ SASS, Bootstrap  &amp; Responsive websites. I love challenges.</p>
+                    <p>I'm a Frontend Developer from Ho Chi Minh City. I’m highly skilled in HTML5/ CSS3, LESS/ SASS, Bootstrap  &amp; Responsive websites. I love challenges.</p>
                     <p>I currently work at Sutrixmedia as Frontend developer, where I spend most of my time crafting and working on awesome projects.</p>
                     <p>Regards,</p>
                     <p>Nhan Do</p>
@@ -121,7 +124,7 @@
               <div class="info-group">
                 <p>Address:</p>
                 <p>1 Back Dang, Ward 2, Tan Binh District, HCMC</p>
-              </div><a href="#" title="Download My Resume" class="btn btn-default btn-block">Download My Resume</a>
+              </div><a href="images/Resume.pdf" title="Download My Resume" class="btn btn-default btn-block" target="_blank">Download My Resume</a>
             </div>
           </div>
         </div>
@@ -154,8 +157,8 @@
                   <ul class="list-skill">
                     <li><span class="fa fa-check"></span>HTML/ HTML5, CSS/ CSS3</li>
                     <li><span class="fa fa-check"></span>Grunt / Gulp / Jade / Less / Sass</li>
-                    <li><span class="fa fa-check"></span>Bootstrap / Foundation</li>
-                    <li><span class="fa fa-check"></span>JavaScript / Ajax / JSON / jQuery</li>
+                    <li><span class="fa fa-check"></span>Bootstrap</li>
+                    <li><span class="fa fa-check"></span>JavaScript / jQuery</li>
                     <li><span class="fa fa-check"></span>Expert in Responsive Web Design, Mobile Web App developement</li>
                     <li><span class="fa fa-check"></span>Good at version control GIT, SVN, JIRA</li>
                     <li><span class="fa fa-check"></span>Excellent Web Performance</li>
@@ -188,7 +191,7 @@
                     <div class="col-xs-6">
                       <div class="chart-item">
                         <div data-chart data-percent="70" class="chart-block"><span data-percent-inner class="chart-percent"></span></div>
-                        <p class="chart-name">JAVASCRIPT/JQUERY</p>
+                        <p class="chart-name">JAVASCRIPT/ JQUERY</p>
                       </div>
                     </div>
                   </div>
@@ -320,7 +323,10 @@
         </div>
       </main>
     </div>
-    <script src="js/script.js" defer></script>
+    <script src="js/l10n.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script>
+    <script src="//localhost:35729/livereload.js"></script>
     <!--[if lt IE 8]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
     <noscript>JavaScript is off. Please enable to view full site.</noscript>
   </body>
